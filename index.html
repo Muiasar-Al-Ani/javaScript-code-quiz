@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/png" />
+    <title>JavaScript Quiz</title>
+  </head>
+  <body>
+    <header>
+      <div class="float-start ms-4">
+         <button class='btn btn-outline-primary mt-2' id="high-scores" onclick="renderHighScores()">View Highscores</button>
+      </div>
+      <div class="float-end me-4"> <span id="timer">Time: 100</span></div>
+    </header>
+    <main>
+      <div id="questions-div" class="text-center">
+        
+        <button
+          id="start"
+          class="
+            btn btn-primary btn-lg
+            position-absolute
+            top-50
+            start-50
+            translate-middle
+            fs-1
+          "
+        >
+          START Quiz
+        </button>
+      </div>
+    </main>
+
+    <script src="./script/script.js"></script>
+  </body>
+</html>
